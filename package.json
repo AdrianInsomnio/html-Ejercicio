@@ -4,6 +4,7 @@
   "description": "primer proyecto de nodejs",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Adrian Ins0Mni0",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Ins0mni0URU/ww3#readme"
+  "homepage": "https://bitbucket.org/Ins0mni0URU/ww3#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
