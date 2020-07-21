@@ -1,0 +1,16 @@
+{
+  "name": "ww3",
+  "version": "1.0.0",
+  "description": "primer proyecto de nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Ins0mni0URU@bitbucket.org/Ins0mni0URU/ww3.git"
+  },
+  "author": "Adrian Ins0Mni0",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Ins0mni0URU/ww3#readme"
+}
