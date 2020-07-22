@@ -22,7 +22,7 @@
 				<li class="nav-item active"> <a class="nav-link" href="/index.html">Noticias</a></li>
 				<li class="nav-item "> <a class="nav-link" href="#">Galeria</a></li>
 				<li class="nav-item "> <a class="nav-link" href="/about.html">Nosotros</a></li>
-				<li class="nav-item "> <a class="nav-link" href="#">Termino y condiciones</a></li>
+				<li class="nav-item "> <a class="nav-link" href="/terminos.html">Termino y condiciones</a></li>
 				<li class="nav-item "> <a class="nav-link" href="/contacto.html">Contacto</a></li>
 			</ul>
 		</div>
@@ -31,14 +31,64 @@
     <div class="jumbotron ">
       <h1>Proximo eventos</h1>
 	</div>
-	<div class="container">
+	<div class="container">	
 		<div class="row">
 			<ol class="col-12 breadcrumb">
 				<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
 				<li class="breadcrumb-item active">Contacto</li>
 			</ol>
 		</div>
-	</div>
+		
+		
+			<h1 style="color: black;">  Dejame tu cometario </h1>
+
+			<form >
+				<div class="form-row">
+					<div class="form-group col-sm-6">
+					  <label for="nombre">Nombre</label>
+					  <input type="text" name="" id="nombre" class="form-control" placeholder="Ingrese su nombre" aria-describedby="helpId">
+					</div>
+					<div class="form-group col-sm-6">
+					  <label for="apellido">Apellido</label>
+					  <input type="text" name="" id="apellido" class="form-control" placeholder="Ingrese su apellido" aria-describedby="helpId">
+					</div>
+
+					<div class="form-group col">
+						<label for="email">Email</label>
+						<input type="text" name="" id="email" class="form-control" placeholder="Ingrese su email" aria-describedby="helpId">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-sm-9">
+						<label for="domicilio">Domicilio</label>
+						<input type="text" name="" id="domicilio" class="form-control" placeholder="Ingrese su domicilio" aria-describedby="helpId">
+					</div>
+					<div class="form-group col-sm-3">
+						<label for="barrio">Barrio</label>
+						<select name="barrio" class="form-control">
+							<option value="">Elija un barrio...</option>
+							<option value="">Carrasco</option>
+							<option value="">Centro</option>
+							<option value="">Buceo</option>
+							<option value="">Malvin</option>
+						</select>					  
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="comentario">Comentario</label>
+					<textarea type="text" name="comentario" id=""comentario rows="6" class="form-control" placeholder="" aria-describedby="helpId">
+					</textarea>
+				</div>
+				<div class="form-group">
+					<div class="form-chech">
+						<input type="checkbox" class="form-check-input" name="" id="gridchek" value="checkedValue">
+						<label class="form-check-label" for="gridchek">Quiero que me contacten</label>							
+					</div>
+				</div>
+				<button type="submit" class="btn btn-outline-primary">Enviar</button>
+			</form>
+		</div>
+	
 	<footer>
 		<div class="row">
 		<div class="col-sm-4  d-flex flex-column align-self-center" >
