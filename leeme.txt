@@ -1,0 +1,9 @@
+index
+    login de usuario
+    noticias
+    galeria
+    contacto
+    venta
+        listado de items
+        confirma pago
+        confirma tu direccion
