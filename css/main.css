@@ -1,0 +1,33 @@
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom:  1px ridge;
+    min-height: 300px;
+}
+
+.jumbotron{
+    background-color: yellow;
+    color: black;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+}
+.btn-feria{
+    width: 100%;    
+    left: 0;
+    bottom: 0;   
+}
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: yellow;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.card-feria{
+    flex: 1 150px;
+    padding:  2px 5px 2px 5px;
+    margin-top: 15px;
+}

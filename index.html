@@ -8,15 +8,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="/css/main.css">
     <title>Titulo!</title>
   </head>
   <body>
     <div class="jumbotron ">
       <h1>Hoteles</h1>
     </div>
-    <div class="conatiner">
-      <div  class="row row-col-8 row-ls-12 ">
+    <div class="container">
+      <div  class="row row-content  ">
           <div class="col-sm">
             <div>
               <h1>Novedades</h1>
@@ -41,25 +41,77 @@
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quam nulla sit officiis aut sint non quod! Laborum magnam, ex neque nemo, voluptatum animi sequi debitis iste vero aliquid sunt.
             </p>
           </div>
-      </div>
-    <div class="row">
-    <div class="col-sm-3">
-    <h3>Feria para ti</h3>
-    <p>Otra edición de la feria Para Ti ubicada en el hotel del prado </p>
-    <button class="btn-secondary">Enviar</button>
-    </div>
-    <div class="col-sm-3">
-    <h3>Feria primavera 2020</h3>
-    <p>Feria ubicada en el centro de biarritz</p>
-    <button class="btn-secondary">Enviar</button>
-    </div>
-    <div class="col-sm-3">
-    <h3>Feria parque batlle</h3>
-    <p>En el centro de montevio te esperamos con los mejores producto artesanales</p>
-    <button class="btn-secondary">Enviar</button>
-    </div>
-
-    </div>
+	  </div>
+	  <br>
+    <div class="d-flex flex-wrap">
+		<div class="card-feria d-flex flex-column justify-content-between">
+			<div>
+				<h3>Feria para ti</h3>
+				<p>Otra edición de la feria Para Ti ubicada en el hotel del prado </p>
+			</div>
+			<div>
+				<button class="btn btn-feria">Enviar</button>
+			</div>
+		</div>
+		<div class="card-feria d-flex flex-column justify-content-between">
+			<div>
+				<h3>Feria primavera 2020</h3>
+				<p>Feria ubicada en el centro de biarritz</p>
+			</div>
+			<div>
+			<button class="btn btn-feria">Enviar</button>
+		</div>
+			
+		</div>
+		<div class="card-feria d-flex flex-column justify-content-between">
+			<div>
+			<h3>Feria parque batlle</h3>
+			<p>En el centro de montevideo te esperamos con los mejores producto artesanales</p>
+		</div>
+		<div>
+			<button class="btn btn-feria">Enviar</button>
+		</div>
+		</div>
+		<div class="card-feria d-flex flex-column justify-content-between">
+			<div>
+			<h3>Feria parque Lunes</h3>
+			<p>En el centro de montevio te esperamos con los mejores producto artesanales</p>
+		</div>
+		<div>
+			<button class="btn btn-feria">Enviar</button>
+		</div>
+		</div>
+		<div class="card-feria d-flex flex-column justify-content-between">
+			<div>
+			<h3>Feria parque Martes</h3>
+			<p>En el centro de montevio te esperamos con los mejores producto artesanales</p>
+		</div>
+		<div>
+			<button class="btn btn-feria">Enviar</button>
+		</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="row">
+		<div class="col-sm-4  d-flex flex-column" >
+		<a href="htto://www.facebook.com">facebook</a>
+		<a href="htto://www.twitter.com">twiter</a>
+		<a href="htto://www.instagram.com">Instagram</a>	
+		</div>
+		<div class="col-sm-4">
+			<address>
+				Av italia, 0000, Montevideo, Uruguay tel:+598 2222 2222
+				contacto@giaFeria.com
+			</address>
+		</div>
+		<div class="col-sm-4 d-flex flex-column align-items-end">
+			<a href="#">Nosotros</a>
+			<a href="#">Precios</a>
+			<a href="#">Termino y condiciones</a>	
+		</div>
+	</div>
+	</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
