@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/main.css">
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+	
     <title>Titulo!</title>
   </head>
   <body>
@@ -45,6 +47,7 @@
 				<th>Nombre</th>
 				<th>Mes</th>
 				<th>Direccion</th>
+				<th>Calidad de puestos</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -52,16 +55,19 @@
 				<td scope="row">Parque Batlle</td>
 				<td>Setiembre</td>
 				<td>Av italia esq centenario</td>
+				<td> <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></td>
 			</tr>
 			<tr>
 				<td scope="row">Para ti</td>
 				<td>Agosto</td>
 				<td>Prado</td>
+				<td> <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></ion-icon><ion-icon name="star"></ion-icon></td>
 			</tr>
 			<tr>
 				<td scope="row">Ideas mas</td>
 				<td>Diciembre</td>
 				<td>Parque rodo</td>
+				<td> <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></td>
 			</tr>
 		</tbody>
 	</table>
@@ -71,27 +77,28 @@
 	
 	<footer>
 		<div class="row">
-		<div class="col-sm-4  d-flex flex-column align-self-center" >
-		
-		<a href="htto://www.facebook.com"><ion-icon class="footer-address-icon" name="logo-facebook"></ion-icon>facebook</a>
-		<a href="htto://www.twitter.com"> <ion-icon class="footer-address-icon" name="logo-twitter"></ion-icon>twiter</a>
-		<a href="htto://www.instagram.com"> <ion-icon class="footer-address-icon" name="logo-instagram"></ion-icon>Instagram</a>	
-		</div>
+			<div class="col-sm-4  d-flex flex-column align-self-center" >
+			
+			<a href="htto://www.facebook.com" class="footer-text"><ion-icon class="footer-address-icon" name="logo-facebook"></ion-icon>facebook</a>
+			<a href="htto://www.twitter.com" class="footer-text"> <ion-icon class="footer-address-icon" name="logo-twitter"></ion-icon>twiter</a>
+			<a href="htto://www.instagram.com" class="footer-text"><ion-icon class="footer-address-icon" name="logo-instagram"></ion-icon>Instagram</a>	
+			</div>
 		<div class="col-sm-4   d-flex flex-column align-self-center" >
-			<address>
-				<h3>Oficina central</h3>
-				<p><ion-icon class="footer-address-icon" name="home-outline"></ion-icon>  Av italia, 0000, Montevideo, Uruguay</p>		
-				<p><ion-icon class="footer-address-icon" name="call-outline"></ion-icon>  tel:+598 2222 2222</p>
-				<p><ion-icon class="footer-address-icon" name="mail-outline"></ion-icon>  contacto@guiaFeria.com</p>
-				
-			</address>
+				<address>
+					<h3 class="footer-text">Oficina central</h3>
+					<p class="footer-text"><ion-icon class="footer-address-icon " name="home-outline"></ion-icon>  Av italia, 0000, Montevideo, Uruguay</p>		
+					<p class="footer-text"><ion-icon class="footer-address-icon" name="call-outline"></ion-icon>  tel:+598 2222 2222</p>
+					<p class="footer-text"><ion-icon class="footer-address-icon" name="mail-outline"></ion-icon>  contacto@guiaFeria.com</p>
+					
+				</address>
 		</div>
 		<div class="col-sm-4 d-flex flex-column align-items-end align-self-center">
-			<a href="#">Nosotros</a>			<a href="#">Precios</a>
-			<a href="#">Termino y condiciones</a>	
+			<a class="footer-text" href="/about.html">Nosotros</a>
+			<a class="footer-text" href="/galeria.html">Precios</a>
+			<a  class="footer-text"href="/terminos.html">Termino y condiciones</a>	
 		</div>
-	</div>
-	</footer>
+		</div>
+	</footer> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

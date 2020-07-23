@@ -25,9 +25,12 @@ h1{
 }
 footer{
     padding: 10px 10px 0 10px;
-    background-color: rgb(230, 230, 115);
+    background-color: grey;
     margin-bottom: 0px;
     margin-top: 10px;
+}
+.footer-text{
+    color: white;    
 }
 
 .card-feria{
