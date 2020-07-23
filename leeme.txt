@@ -1,13 +1,7 @@
 index
     login de usuario
-        ventana modal para ingreso de usuario
-    crear nuevo usuario
-        formulario para el ingrso de nuevo usuario
     noticias
-        nuevos avisos para proximas fechas 
-        nuevos productos
     galeria
-        listado de proximas fechas
     contacto
     venta
         listado de items
